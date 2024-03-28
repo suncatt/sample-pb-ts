@@ -1,0 +1,32 @@
+{
+  "name": "sample-pb-ts",
+  "version": "1.0.0",
+  "description": "Data serialization with Protobuf and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build:proto": "bash ./scripts/protoc-generate.sh",
+    "dev": "npx ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suncatt/sample-pb-ts.git"
+  },
+  "keywords": [
+    "Data",
+    "Serialization",
+    "Protobuf",
+    "TypeScript"
+  ],
+  "author": "suncatt",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/google-protobuf": "^3.15.6",
+    "@types/node": "^20.2.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "google-protobuf": "^3.21.2",
+    "protoc-gen-ts": "^0.8.7"
+  }
+}
